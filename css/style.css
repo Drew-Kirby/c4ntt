@@ -35,43 +35,14 @@ header {
   font-weight: bold;
 }
 
-/* Navigation styles */
-nav ul {
-  list-style: none;
+section ul {
+  max-width: 50%;
+  margin: 0 auto; /* Centers the ul */
+  display: flex; /* Enables flexbox */
+  flex-direction: column; /* Stacks items vertically */
+  align-items: center; /* Centers items inside */
   padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 20px;
-}
-
-nav ul li {
-  display: inline;
-}
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 16px;
-  transition: color 0.3s;
-}
-
-nav ul li a:hover {
-  color: #f39c12;
-}
-
-/* Call-to-action button */
-.cta-button {
-  background: #f39c12;
-  color: white;
-  padding: 10px 15px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background 0.3s;
-}
-
-.cta-button:hover {
-  background: #e67e22;
+  list-style: none; /* Removes default bullets */
 }
 
 /* Responsive design */
